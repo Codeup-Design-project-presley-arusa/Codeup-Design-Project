@@ -73,13 +73,25 @@ h4 {
     aspect-ratio: 296/200;
     object-fit: cover;
 }
-
-/*.little-circle-1{*/
-/*    background-color: #E6563B;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    width: 18px; !* adjust the size of the circle *!*/
-/*    height: 18px; !* adjust the size of the circle *!*/
-/*    */
-/*}*/
+.small-circle {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: .75rem;
+    border-radius: 50%;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+.small-circle.red{
+    background-color: #E6563B;
+}
+.small-circle.orange {
+    background-color: #EB9D3A;
+}
+.small-circle.green {
+    background-color: #7CB06C;
+}
+.small-circle.teal {
+    background-color: #00ABA9;
+}
