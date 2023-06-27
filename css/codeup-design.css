@@ -1,3 +1,7 @@
+img {
+    max-width: 100%;
+}
+
 .navbar{
     font-family: 'Abel', sans-serif;
 }
@@ -60,4 +64,22 @@ h4 {
     font-family: 'Anton', sans-serif;
 }
 
+.last-tweet{
+    padding-left: 25px;
+}
 
+.img-wrapper img {
+    width: 100%;
+    aspect-ratio: 296/200;
+    object-fit: cover;
+}
+
+/*.little-circle-1{*/
+/*    background-color: #E6563B;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 18px; !* adjust the size of the circle *!*/
+/*    height: 18px; !* adjust the size of the circle *!*/
+/*    */
+/*}*/
