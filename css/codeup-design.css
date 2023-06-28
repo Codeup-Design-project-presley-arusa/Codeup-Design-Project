@@ -17,6 +17,8 @@ img {
 header {
     font-family: 'Anton', sans-serif;
 }
+
+/*large icons*/
 .circle {
     display: flex;
     justify-content: center;
@@ -43,9 +45,6 @@ header {
     border: 7px solid white;
 
 }
-.text {
-    text-align: center;
-}
 
 
 .icon-row{
@@ -66,12 +65,13 @@ h4 {
 .last-tweet{
     padding-left: 25px;
 }
-
+/*image sizing*/
 .img-wrapper img {
     width: 100%;
     aspect-ratio: 296/200;
     object-fit: cover;
 }
+ /*small icons*/
 .small-circle {
     width: 25px;
     height: 25px;
